@@ -52,9 +52,9 @@
 #		like the -V command
 #
 
-TYPE="FreeBSD"
-REVISION="14.0"
-BRANCH="CURRENT"
+TYPE="holOS"
+REVISION="0.0.1"
+BRANCH="main"
 if [ -n "${BRANCH_OVERRIDE}" ]; then
 	BRANCH=${BRANCH_OVERRIDE}
 fi
